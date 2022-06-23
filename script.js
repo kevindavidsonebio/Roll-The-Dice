@@ -18,12 +18,12 @@ function rollDice() {
   var image2 = document.querySelectorAll("img")[1];
   image2.setAttribute("src", randomImageSource2);
 
-  if (randomNumber1 === randomNumber2) {
-    document.querySelector("h2").innerHTML = "Draw"
-  } else if (randomNumber1 > randomNumber2) {
-    document.querySelector("h2").innerHTML = firstPlayer + " Wins this round!"
+  if (randomNumber1 > randomNumber2) {
+    document.querySelector("h2").innerHTML = firstPlayer + " Wins this round!";
+  } else if (randomNumber2 > randomNumber1) {
+    document.querySelector("h2").innerHTML = secondPlayer + " Wins this round!";
   } else {
-    document.querySelector("h2").innerHTML = secondPlayer + " Wins this round!"
+    document.querySelector("h2").innerHTML = "Draw";
   }
 }
 
