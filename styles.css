@@ -47,7 +47,7 @@ footer {
   font-family: 'Indie Flower', cursive;
 }
 
-button {
+.btn {
   margin-top: 30px;
   font-family: 'Lobster', cursive;
   font-size: 2rem;
@@ -56,7 +56,7 @@ button {
   color: #F7CCAC;
 }
 
-button:hover {
+.btn:hover {
   color: #FAC213;
 }
 

@@ -21,9 +21,9 @@ function rollDice() {
   if (randomNumber1 === randomNumber2) {
     document.querySelector("h2").innerHTML = "Draw"
   } else if (randomNumber1 > randomNumber2) {
-    document.querySelector("h2").innerHTML = firstPlayer + " Wins!"
+    document.querySelector("h2").innerHTML = firstPlayer + " Wins this round!"
   } else {
-    document.querySelector("h2").innerHTML = secondPlayer + " Wins!"
+    document.querySelector("h2").innerHTML = secondPlayer + " Wins this round!"
   }
 }
 
