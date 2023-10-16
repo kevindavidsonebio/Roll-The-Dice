@@ -28,7 +28,7 @@ if(firstPlayer.length > 0 ) {
     }
   }
 } else {
-  alert('Aborting! Walang manlalaro! Tangina! ')
+  alert('Aborting! Walang manlalaro!')
 }
 
 
